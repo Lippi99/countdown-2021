@@ -86,7 +86,6 @@ footer{
 }
 
 footer > p{
-    margin-left: 20px;
     flex: 1;
     color: white;
     font-size: 0.9rem;
@@ -124,9 +123,6 @@ footer > p{
         flex: 0.5;
     }
 
-    footer{
-        margin-bottom: 9rem;
-    }
 }
 
 
