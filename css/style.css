@@ -123,6 +123,10 @@ footer > p{
         font-size: 0.9rem;
         flex: 0.5;
     }
+
+    footer{
+        margin-bottom: 3rem;
+    }
 }
 
 
