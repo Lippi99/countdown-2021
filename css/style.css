@@ -76,7 +76,6 @@ header{
 
 footer{
     width: 100%;
-    margin-bottom: 20rem;
     padding: 1rem;
     background-color:rgba(0, 0, 0, 0.6);
     display: flex;
@@ -117,6 +116,11 @@ footer > p{
 
     #days-count,#hours-count,#minutes-count,#seconds-count{
         font-size: 3rem;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0;
     }
     
     .author{
