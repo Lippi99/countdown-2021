@@ -61,7 +61,7 @@ header{
 }
 
 .countdown{
-       color: white;
+    color: white;
 }
 
 .days,.hours,.minutes,.seconds{
@@ -81,9 +81,7 @@ footer{
     display: flex;
     position: absolute;
     padding: 1rem;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    bottom: -1px;
     align-items: center;
 }
 
