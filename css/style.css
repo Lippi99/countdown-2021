@@ -16,10 +16,11 @@ body{
     height: 100vh;
     opacity: 0.9;
     overflow: hidden;
+    position: relative;
 }
 
 header{
-    position: relative;
+    position: absolute;
 }
 
 #title{
@@ -80,7 +81,9 @@ footer{
     background-color:rgba(0, 0, 0, 0.6);
     display: flex;
     position: absolute;
+    left: 0;
     bottom: 0;
+    right: 0;
     align-items: center;
 }
 
@@ -117,14 +120,7 @@ footer > p{
     #days-count,#hours-count,#minutes-count,#seconds-count{
         font-size: 3rem;
     }
-
-    footer{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-    
+  
     .author{
         font-size: 0.9rem;
         flex: 0.5;
