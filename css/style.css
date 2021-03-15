@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+.bg{
+    width: 100%;
+    background-image: url('../img/newYear.jpg');
+    background-position: bottom right;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.9;
+}
+
+header{
+    position: relative;
+}
+
+#title{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+    right: 0;
+}
+
+header{
+    width: 100%;
+    height: 27vh;
+}
+
+#title{
+    text-align: center;
+
+}
+
+.content{
+    max-width: 100%;
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.countdown{
+       color: white;
+}
+
+.days,.hours,.minutes,.seconds{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#days-count,#hours-count,#minutes-count,#seconds-count{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5rem;
+}
+
+footer{
+    width: 100%;
+    height: 8vh;
+    left: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.6);
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
+
+footer > p{
+    margin-left: 20px;
+    flex: 1;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.author{
+    flex: 1.2;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 697px) {
+    .bg{
+        background-position: center ;
+    }
+
+    #title{
+        font-size: 2rem;
+    }
+
+    .days,.hours,.minutes,.seconds{
+        font-size: 1rem;
+    }
+
+    #days-count,#hours-count,#minutes-count,#seconds-count{
+        font-size: 3rem;
+    }
+    
+    .author{
+        font-size: 0.9rem;
+        flex: 0.5;
+    }
+}
+
+
