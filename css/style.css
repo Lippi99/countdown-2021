@@ -15,6 +15,7 @@ body{
     background-size: cover;
     height: 100vh;
     opacity: 0.9;
+    overflow: hidden;
 }
 
 header{
@@ -120,7 +121,6 @@ footer > p{
 
     footer{
         position: absolute;
-        height: 100%;
         bottom: 0;
         left: 0;
         right: 0;
