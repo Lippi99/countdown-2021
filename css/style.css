@@ -79,7 +79,7 @@ footer{
     padding: 1rem;
     background-color:rgba(0, 0, 0, 0.6);
     display: flex;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     align-items: center;
 }
