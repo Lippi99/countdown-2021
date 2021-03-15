@@ -123,6 +123,13 @@ footer > p{
         flex: 0.5;
     }
 
+    footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
 }
 
 
