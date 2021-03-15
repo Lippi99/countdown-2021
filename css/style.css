@@ -117,6 +117,13 @@ footer > p{
     #days-count,#hours-count,#minutes-count,#seconds-count{
         font-size: 3rem;
     }
+
+    footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
     
     .author{
         font-size: 0.9rem;
