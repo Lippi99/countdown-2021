@@ -119,8 +119,12 @@ footer > p{
     }
   
     .author{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         flex: 0.5;
+    }
+
+    footer > p{
+        font-size: 0.8rem;
     }
 
     footer{
