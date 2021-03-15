@@ -103,7 +103,7 @@ footer > p{
     }
 
     #title{
-        margin-top: 4rem;
+        margin-top: 5rem;
         position: absolute;
         left: 0;
         top: 0;
@@ -118,6 +118,13 @@ footer > p{
         font-size: 3rem;
     }
     
+    footer{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
     .author{
         font-size: 0.9rem;
         flex: 0.5;
